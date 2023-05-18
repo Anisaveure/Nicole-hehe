@@ -1,0 +1,59 @@
+body {
+	background-image: url(happy.png);
+	background-repeat: no-repeat;
+	 background-size: 2600px 1300px;
+}
+
+
+
+#div1 {
+	text-align: right;
+	color:rgba(116, 19, 43, 1);
+	Font-size:200%;
+	font-style:Italic;
+	Font-weight:Bold;
+	font-family:cursive;
+	padding-bottom:-10px;
+	margin-left:1500px;
+	margin-right:600px;
+	margin-top:200px;
+	}
+
+.name {
+	cursor: url(cursors/heart.png), auto;
+	margin-left:50px;
+	margin-right:150px;
+	transition:all 1s;
+
+}
+
+.name:hover {
+	Transform:scale(1.1);
+}
+
+
+.Envelope {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	align-content:space-around;
+	margin-left:1200px;
+	margin-right:500px;
+
+
+
+}
+
+img {
+	margin:20px;
+	transition: all 1.5s;
+  	transition-timing: ease-in-out;
+
+}
+
+img:hover {
+	transform:scale(1.1);
+	cursor: url(cursors/heart.png), auto;
+}
+
+
